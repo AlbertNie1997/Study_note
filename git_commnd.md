@@ -60,5 +60,22 @@
 ```
   git branch -d 分支名称
 ```
+# Github托管
 
+  1. 给远程仓库起名
+   ```
+   git remote add origin 远程仓库地址
+   ```
+  2. 向远程推送代码
+   ```
+   git push -u origin 分支
+   ```
+  3. 克隆远程仓库代码
+  ```
+  git clone 远程仓库地址
+  ```
+  4. 切换分支
+   ```
+   git checkout 分支
+   ```
 
