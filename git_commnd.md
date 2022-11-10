@@ -78,4 +78,30 @@
    ```
    git checkout 分支
    ```
+  
+## 设备1
+  1. 切换到dev分支进行开发  
+   `git checkout dev`
+  2. 把master分支合并到dev[仅第一次]  
+   `git merge master`
+  3. 修改代码
+  4. 提交代码
+   ```
+   git add .
+   git commit -m 'xx'
+   git push origin dev
+   ```
+
+## 设备2
+  1. 切换到dev分支开发  
+  `git checkout dev`
+  2. 拉代码
+  `git pull origin dev`  
+  3. 继续开发
+  4. 提交代码
+   ```
+   git add .
+   git commit -m 'xx'
+   git push origin dev
+   ```
 
